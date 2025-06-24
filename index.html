@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HARSH Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Harsh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                जय श्री कृष्ण 🦚🧿, My name is <span class="purple">Harsh.</span>
+                <div> and I am a</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="image/myphoto.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">
+                <h1>Skills/Languages</h1>
+            </span>
+            <div class="box">
+                <div class="vertical">
+                    <img class="imagetop" src="image/c++.png" alt="">
+                    <div class="vertical-title">
+                        C++ Language
+                    </div>
+                    <div class="vertical-desc">
+                        C++ is the most used and most popular programming language developed by Bjarne Stroustrup.
+                        C++ is a high-level and object-oriented programming language.
+                        This language allows developers to write clean and efficient code for large applications and
+                        software development,game development, and operating system programming.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="imagetop" src="image/html.png" alt="">
+                    <div class="vertical-title">
+                        HTML Language
+                    </div>
+                    <div class="vertical-desc">
+                        HTML stands for HyperText Markup Language. It creates a complete website structure of web pages.
+                        HTML is a combination of Hypertext and Markup language.
+                        Hypertext defines the link between the web pages and markup language defines the text document
+                        within the tag.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="imagetop" src="image/css.webp" alt="">
+                    <div class="vertical-title">
+                        CSS Language
+                    </div>
+                    <div class="vertical-desc">
+                        Cascading Style Sheets, fondly referred to as CSS, is a simply designed language
+                        intended to simplify the process of making web pages presentable.
+                        CSS allows you to apply styles to web pages.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="imagetop" src="image/js.png" alt="">
+                    <div class="vertical-title">
+                        JavaScript Language
+                    </div>
+                    <div class="vertical-desc">
+                        JavaScript is a lightweight, cross-platform, single-threaded, and interpreted compiled
+                        programming language.
+                        It is also known as the scripting language for webpages.
+                        It is well-known for the development of web pages, and many non-browser environments also use
+                        it.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h1>Harsh's Portfolio</h1>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><b>Email</b> :- harshxxxxxxxxx@gmail.com</li>
+                    <li><b>Phone Number </b>:- 7572xxxxxx</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><b>Linkedin</b> :-linkedin.com/in/harsh/</li>
+                    <li><b>Twitter</b> :-twitter.com/harsh </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; harshportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Backend Developer', 'Web Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
